@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    margin: 40px auto;
+    text-align: center;
+}
+
+#button-area {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto 30px auto;
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+}
+
+#sketch-area {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 30px auto 30px auto;
+}
+
+.cell {
+    border: 1px solid whitesmoke;
+}
+
+#slider-container {
+    margin: 0 auto;
+}
+
+.slider {
+    height: 25px;
+    width: 100%;
+}
+
+#slider-value {
+    margin: 0 auto;
+    text-align: center;
+}
+
